@@ -12,8 +12,8 @@ router.get("/home", getLandingData);
 
 //Rutas a mysql
 router.get("/correos", getAllCorreosWithUsers)
-// router.get("/correos/:id", getSingleCorreo);
+
 router.post("/nuevo", createCorreo);
-// router.delete("/correos/:id", deleteCorreo);
+
 
 export default router;
